@@ -1,0 +1,249 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EXA_LAAD_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAAID_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAAI_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons
+SETUVAR --export EXA_LAA_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary
+SETUVAR --export EXA_LAD_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAID_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAI_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons
+SETUVAR --export EXA_LA_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary
+SETUVAR --export EXA_LC_OPTIONS:\x2d\x2dacross
+SETUVAR --export EXA_LD_OPTIONS:\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LE_OPTIONS:\x2d\x2dextended\x1e\x2d\x2dlong
+SETUVAR --export EXA_LG_OPTIONS:\x2d\x2dgit\x1e\x2d\x2dgit\x2dignore\x1e\x2d\x2dlong
+SETUVAR --export EXA_LID_OPTIONS:\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LI_OPTIONS:\x2d\x2dicons
+SETUVAR --export EXA_LL_OPTIONS:\x2d\x2dlong
+SETUVAR --export EXA_LO_OPTIONS:\x2d\x2doneline
+SETUVAR --export EXA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
+SETUVAR --export EXA_L_OPTIONS:\x1d
+SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
+SETUVAR --export __FISH_EXA_ALIASES:l\x1ela\x1eld\x1eli\x1elid\x1elaa\x1elad\x1elai\x1elaid\x1elaad\x1elaai\x1elaaid\x1ell\x1ella\x1elld\x1elli\x1ellid\x1ellaa\x1ellad\x1ellai\x1ellaid\x1ellaad\x1ellaai\x1ellaaid\x1elg\x1elga\x1elgd\x1elgi\x1elgid\x1elgaa\x1elgad\x1elgai\x1elgaid\x1elgaad\x1elgaai\x1elgaaid\x1ele\x1elea\x1eled\x1elei\x1eleid\x1eleaa\x1elead\x1eleai\x1eleaid\x1eleaad\x1eleaai\x1eleaaid\x1elt\x1elta\x1eltd\x1elti\x1eltid\x1eltad\x1eltai\x1eltaid\x1eltaad\x1eltaai\x1eltaaid\x1elc\x1elca\x1elcd\x1elci\x1elcid\x1elcaa\x1elcad\x1elcai\x1elcaid\x1elcaad\x1elcaai\x1elcaaid\x1elo\x1eloa\x1elod\x1eloi\x1eloid\x1eloaa\x1eload\x1eloai\x1eloaid\x1eloaad\x1eloaai\x1eloaaid
+SETUVAR --export __FISH_EXA_BASE_ALIASES:l\x1ell\x1elg\x1ele\x1elt\x1elc\x1elo
+SETUVAR --export __FISH_EXA_BINARY:eza
+SETUVAR --export __FISH_EXA_EXPANDED:a\x1ed\x1ei\x1eid\x1eaa\x1ead\x1eai\x1eaid\x1eaad\x1eaai\x1eaaid
+SETUVAR --export __FISH_EXA_EXPANDED_OPT_NAME:LA\x1eLD\x1eLI\x1eLID\x1eLAA\x1eLAD\x1eLAI\x1eLAID\x1eLAAD\x1eLAAI\x1eLAAID
+SETUVAR --export __FISH_EXA_OPT_NAMES:EXA_L_OPTIONS\x1eEXA_LA_OPTIONS\x1eEXA_LD_OPTIONS\x1eEXA_LI_OPTIONS\x1eEXA_LID_OPTIONS\x1eEXA_LAA_OPTIONS\x1eEXA_LAD_OPTIONS\x1eEXA_LAI_OPTIONS\x1eEXA_LAID_OPTIONS\x1eEXA_LAAD_OPTIONS\x1eEXA_LAAI_OPTIONS\x1eEXA_LAAID_OPTIONS\x1eEXA_LL_OPTIONS\x1eEXA_LG_OPTIONS\x1eEXA_LE_OPTIONS\x1eEXA_LT_OPTIONS\x1eEXA_LC_OPTIONS\x1eEXA_LO_OPTIONS
+SETUVAR --export __FISH_EXA_SORT_OPTIONS:name\x1e\x2ename\x1esize\x1eext\x1emod\x1eold\x1eacc\x1ecr\x1einode
+SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_abfz:abbr\x20\x7c\x20fzf
+SETUVAR _fish_abbr_bat:batcat
+SETUVAR _fish_abbr_code:flatpak\x20run\x20com\x2evscodium\x2ecodium
+SETUVAR _fish_abbr_exa:eza
+SETUVAR _fish_abbr_g:git
+SETUVAR _fish_abbr_ga:git\x20add
+SETUVAR _fish_abbr_gaa:git\x20add\x20\x2d\x2dall
+SETUVAR _fish_abbr_gam:git\x20am
+SETUVAR _fish_abbr_gama:git\x20am\x20\x2d\x2dabort
+SETUVAR _fish_abbr_gamc:git\x20am\x20\x2d\x2dcontinue
+SETUVAR _fish_abbr_gams:git\x20am\x20\x2d\x2dskip
+SETUVAR _fish_abbr_gamscp:git\x20am\x20\x2d\x2dshow\x2dcurrent\x2dpatch
+SETUVAR _fish_abbr_gap:git\x20apply
+SETUVAR _fish_abbr_gapa:git\x20add\x20\x2d\x2dpatch
+SETUVAR _fish_abbr_gapt:git\x20apply\x20\x2d\x2d3way
+SETUVAR _fish_abbr_gau:git\x20add\x20\x2d\x2dupdate
+SETUVAR _fish_abbr_gav:git\x20add\x20\x2d\x2dverbose
+SETUVAR _fish_abbr_gb:git\x20branch
+SETUVAR _fish_abbr_gbD:git\x20branch\x20\x2dD
+SETUVAR _fish_abbr_gbDf:git\x20branch\x20\x2dD\x20\x2df
+SETUVAR _fish_abbr_gba:git\x20branch\x20\x2da
+SETUVAR _fish_abbr_gbd:git\x20branch\x20\x2dd
+SETUVAR _fish_abbr_gbdf:git\x20branch\x20\x2dd\x20\x2df
+SETUVAR _fish_abbr_gbl:git\x20blame\x20\x2db\x20\x2dw
+SETUVAR _fish_abbr_gbnm:git\x20branch\x20\x2d\x2dno\x2dmerged
+SETUVAR _fish_abbr_gbr:git\x20branch\x20\x2d\x2dremote
+SETUVAR _fish_abbr_gbs:git\x20bisect
+SETUVAR _fish_abbr_gbsb:git\x20bisect\x20bad
+SETUVAR _fish_abbr_gbsg:git\x20bisect\x20good
+SETUVAR _fish_abbr_gbsr:git\x20bisect\x20reset
+SETUVAR _fish_abbr_gbss:git\x20bisect\x20start
+SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dv
+SETUVAR _fish_abbr_gc_21_:git\x20commit\x20\x2dv\x20\x2d\x2damend
+SETUVAR _fish_abbr_gca:git\x20commit\x20\x2da\x20\x2dv
+SETUVAR _fish_abbr_gca_21_:git\x20commit\x20\x2da\x20\x2dv\x20\x2d\x2damend
+SETUVAR _fish_abbr_gcam:git\x20commit\x20\x2da\x20\x2dm
+SETUVAR _fish_abbr_gcan_21_:git\x20commit\x20\x2da\x20\x2dv\x20\x2d\x2dno\x2dedit\x20\x2d\x2damend
+SETUVAR _fish_abbr_gcans_21_:git\x20commit\x20\x2da\x20\x2dv\x20\x2ds\x20\x2d\x2dno\x2dedit\x20\x2d\x2damend
+SETUVAR _fish_abbr_gcas:git\x20commit\x20\x2da\x20\x2ds
+SETUVAR _fish_abbr_gcasm:git\x20commit\x20\x2da\x20\x2ds\x20\x2dm
+SETUVAR _fish_abbr_gcb:git\x20checkout\x20\x2db
+SETUVAR _fish_abbr_gcf:git\x20config\x20\x2d\x2dlist
+SETUVAR _fish_abbr_gci:git\x20commit\x20\x2d\x2dallow\x2dempty\x20\x2dv\x20\x2dm\x27chore\x3a\x20initial\x20commit\x27
+SETUVAR _fish_abbr_gcl:git\x20clone\x20\x2d\x2drecurse\x2dsubmodules
+SETUVAR _fish_abbr_gclean:git\x20clean\x20\x2did
+SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gcn:git\x20commit\x20\x2dv\x20\x2d\x2dno\x2dedit
+SETUVAR _fish_abbr_gcn_21_:git\x20commit\x20\x2dv\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit
+SETUVAR _fish_abbr_gco:git\x20checkout
+SETUVAR _fish_abbr_gcob:git\x20checkout\x20\x2db
+SETUVAR _fish_abbr_gcod:git\x20checkout\x20\x28git_develop_branch\x29
+SETUVAR _fish_abbr_gcof:git\x20checkout\x20\x28git_feature_prepend\x29/
+SETUVAR _fish_abbr_gcoh:git\x20checkout\x20hotfix/
+SETUVAR _fish_abbr_gcom:git\x20checkout\x20\x28git_main_branch\x29
+SETUVAR _fish_abbr_gcor:git\x20checkout\x20release/
+SETUVAR _fish_abbr_gcors:git\x20checkout\x20\x2d\x2drecurse\x2dsubmodules
+SETUVAR _fish_abbr_gcos:git\x20checkout\x20support/
+SETUVAR _fish_abbr_gcount:git\x20shortlog\x20\x2dsn
+SETUVAR _fish_abbr_gcp:git\x20cherry\x2dpick
+SETUVAR _fish_abbr_gcpa:git\x20cherry\x2dpick\x20\x2d\x2dabort
+SETUVAR _fish_abbr_gcpc:git\x20cherry\x2dpick\x20\x2d\x2dcontinue
+SETUVAR _fish_abbr_gcs:git\x20commit\x20\x2dS
+SETUVAR _fish_abbr_gcsm:git\x20commit\x20\x2ds\x20\x2dm
+SETUVAR _fish_abbr_gd:git\x20diff
+SETUVAR _fish_abbr_gdca:git\x20diff\x20\x2d\x2dcached
+SETUVAR _fish_abbr_gdct:git\x20describe\x20\x2d\x2dtags\x20\x28git\x20rev\x2dlist\x20\x2d\x2dtags\x20\x2d\x2dmax\x2dcount\x3d1\x29
+SETUVAR _fish_abbr_gdcw:git\x20diff\x20\x2d\x2dcached\x20\x2d\x2dword\x2ddiff
+SETUVAR _fish_abbr_gdt:git\x20diff\x2dtree\x20\x2d\x2dno\x2dcommit\x2did\x20\x2d\x2dname\x2donly\x20\x2dr
+SETUVAR _fish_abbr_gdup:git\x20diff\x20\x40\x7bupstream\x7d
+SETUVAR _fish_abbr_gf:git\x20fetch
+SETUVAR _fish_abbr_gfa:git\x20fetch\x20\x2d\x2dall\x20\x2d\x2dprune
+SETUVAR _fish_abbr_gfg:git\x20ls\x2dfiles\x20\x7c\x20grep
+SETUVAR _fish_abbr_gfo:git\x20fetch\x20origin
+SETUVAR _fish_abbr_ghh:git\x20help
+SETUVAR _fish_abbr_gi:git\x20init
+SETUVAR _fish_abbr_gignore:git\x20update\x2dindex\x20\x2d\x2dassume\x2dunchanged
+SETUVAR _fish_abbr_gignored:git\x20ls\x2dfiles\x20\x2dv\x20\x7c\x20grep\x20\x22\x5e\x5b\x5b\x3alower\x3a\x5d\x5d\x22
+SETUVAR _fish_abbr_gk:gitk\x20\x2d\x2dall\x20\x2d\x2dbranches\x20\x26\x21
+SETUVAR _fish_abbr_gke:gitk\x20\x2d\x2dall\x20\x28git\x20log\x20\x2dg\x20\x2d\x2dpretty\x3d\x25h\x29\x20\x26\x21
+SETUVAR _fish_abbr_gl:git\x20log
+SETUVAR _fish_abbr_glg:git\x20log\x20\x2d\x2dgraph
+SETUVAR _fish_abbr_glgda:git\x20log\x20\x2d\x2dgraph\x20\x2d\x2ddecorate\x20\x2d\x2dall
+SETUVAR _fish_abbr_glgm:git\x20log\x20\x2d\x2dgraph\x20\x2d\x2dmax\x2dcount\x3d10
+SETUVAR _fish_abbr_glo:git\x20log\x20\x2d\x2doneline\x20\x2d\x2ddecorate
+SETUVAR _fish_abbr_glog:git\x20log\x20\x2d\x2doneline\x20\x2d\x2ddecorate\x20\x2d\x2dgraph
+SETUVAR _fish_abbr_gloga:git\x20log\x20\x2d\x2doneline\x20\x2d\x2ddecorate\x20\x2d\x2dgraph\x20\x2d\x2dall
+SETUVAR _fish_abbr_gls:git\x20log\x20\x2d\x2dstat
+SETUVAR _fish_abbr_glsp:git\x20log\x20\x2d\x2dstat\x20\x2dp
+SETUVAR _fish_abbr_gm:git\x20merge
+SETUVAR _fish_abbr_gma:git\x20merge\x20\x2d\x2dabort
+SETUVAR _fish_abbr_gmom:git\x20merge\x20origin/\x28git_main_branch\x29
+SETUVAR _fish_abbr_gmtl:git\x20mergetool\x20\x2d\x2dno\x2dprompt
+SETUVAR _fish_abbr_gmtlvim:git\x20mergetool\x20\x2d\x2dno\x2dprompt\x20\x2d\x2dtool\x3dvimdiff
+SETUVAR _fish_abbr_gmum:git\x20merge\x20upstream/\x28git_main_branch\x29
+SETUVAR _fish_abbr_gp:git\x20push
+SETUVAR _fish_abbr_gpd:git\x20push\x20\x2d\x2ddry\x2drun
+SETUVAR _fish_abbr_gpf:git\x20push\x20\x2d\x2dforce\x2dwith\x2dlease
+SETUVAR _fish_abbr_gpf_21_:git\x20push\x20\x2d\x2dforce
+SETUVAR _fish_abbr_gpl:git\x20pull
+SETUVAR _fish_abbr_gplo:git\x20pull\x20origin
+SETUVAR _fish_abbr_gplom:git\x20pull\x20origin\x20\x28git_main_branch\x29
+SETUVAR _fish_abbr_gplu:git\x20pull\x20upstream
+SETUVAR _fish_abbr_gplum:git\x20pull\x20upstream\x20\x28git_main_branch\x29
+SETUVAR _fish_abbr_gpoat:git\x20push\x20origin\x20\x2d\x2dall\x20\x26\x26\x20git\x20push\x20origin\x20\x2d\x2dtags
+SETUVAR _fish_abbr_gpoatf_21_:git\x20push\x20origin\x20\x2d\x2dall\x20\x2d\x2dforce\x20\x26\x26\x20git\x20push\x20origin\x20\x2d\x2dtags\x20\x2d\x2dforce
+SETUVAR _fish_abbr_gpristine:git\x20reset\x20\x2d\x2dhard\x20\x26\x26\x20git\x20clean\x20\x2ddffx
+SETUVAR _fish_abbr_gpsu:git\x20push\x20\x2d\x2dset\x2dupstream\x20origin\x20\x28git_current_branch\x29
+SETUVAR _fish_abbr_gpt:git\x20push\x20\x2d\x2dtags
+SETUVAR _fish_abbr_gptf:git\x20push\x20\x2d\x2dtags\x20\x2d\x2dforce\x2dwith\x2dlease
+SETUVAR _fish_abbr_gptf_21_:git\x20push\x20\x2d\x2dtags\x20\x2d\x2dforce
+SETUVAR _fish_abbr_gpu:git\x20push\x20\x2d\x2dset\x2dupstream\x20origin\x20\x28git_current_branch\x29
+SETUVAR _fish_abbr_gpv:git\x20push\x20\x2dv
+SETUVAR _fish_abbr_gr:git\x20remote\x20\x2dv
+SETUVAR _fish_abbr_gra:git\x20remote\x20add
+SETUVAR _fish_abbr_grau:git\x20remote\x20add\x20upstream
+SETUVAR _fish_abbr_grb:git\x20rebase
+SETUVAR _fish_abbr_grba:git\x20rebase\x20\x2d\x2dabort
+SETUVAR _fish_abbr_grbc:git\x20rebase\x20\x2d\x2dcontinue
+SETUVAR _fish_abbr_grbd:git\x20rebase\x20\x28git_develop_branch\x29
+SETUVAR _fish_abbr_grbi:git\x20rebase\x20\x2di
+SETUVAR _fish_abbr_grbo:git\x20rebase\x20\x2d\x2donto
+SETUVAR _fish_abbr_grbom:git\x20rebase\x20origin/\x28git_main_branch\x29
+SETUVAR _fish_abbr_grbs:git\x20rebase\x20\x2d\x2dskip
+SETUVAR _fish_abbr_grev:git\x20revert
+SETUVAR _fish_abbr_grm:git\x20rm
+SETUVAR _fish_abbr_grmc:git\x20rm\x20\x2d\x2dcached
+SETUVAR _fish_abbr_grmv:git\x20remote\x20rename
+SETUVAR _fish_abbr_grrm:git\x20remote\x20remove
+SETUVAR _fish_abbr_grs:git\x20reset
+SETUVAR _fish_abbr_grs_21_:git\x20reset\x20\x2d\x2dhard
+SETUVAR _fish_abbr_grs_2D_:git\x20reset\x20\x2d\x2d
+SETUVAR _fish_abbr_grset:git\x20remote\x20set\x2durl
+SETUVAR _fish_abbr_grsh:git\x20reset\x20HEAD
+SETUVAR _fish_abbr_grsh_21_:git\x20reset\x20HEAD\x20\x2d\x2dhard
+SETUVAR _fish_abbr_grsoh:git\x20reset\x20origin/\x28git_current_branch\x29
+SETUVAR _fish_abbr_grsoh_21_:git\x20reset\x20origin/\x28git_current_branch\x29\x20\x2d\x2dhard
+SETUVAR _fish_abbr_grst:git\x20restore
+SETUVAR _fish_abbr_grsts:git\x20restore\x20\x2d\x2dsource
+SETUVAR _fish_abbr_grstst:git\x20restore\x20\x2d\x2dstaged
+SETUVAR _fish_abbr_grt:cd\x20\x28git\x20rev\x2dparse\x20\x2d\x2dshow\x2dtoplevel\x20\x7c\x7c\x20echo\x20\x2e\x29
+SETUVAR _fish_abbr_gru:git\x20remote\x20update
+SETUVAR _fish_abbr_grv:git\x20remote\x20\x2dv
+SETUVAR _fish_abbr_grvv:git\x20remote\x20\x2dvvv
+SETUVAR _fish_abbr_gs:git\x20status
+SETUVAR _fish_abbr_gsb:git\x20status\x20\x2dsb
+SETUVAR _fish_abbr_gshow:git\x20show
+SETUVAR _fish_abbr_gshowps:git\x20show\x20\x2d\x2dpretty\x3dshort\x20\x2d\x2dshow\x2dsignature
+SETUVAR _fish_abbr_gss:git\x20status\x20\x2ds
+SETUVAR _fish_abbr_gsta:git\x20stash\x20apply
+SETUVAR _fish_abbr_gstall:git\x20stash\x20\x2d\x2dall
+SETUVAR _fish_abbr_gstc:git\x20stash\x20clear
+SETUVAR _fish_abbr_gstd:git\x20stash\x20drop
+SETUVAR _fish_abbr_gstl:git\x20stash\x20list
+SETUVAR _fish_abbr_gstp:git\x20stash\x20pop
+SETUVAR _fish_abbr_gsts:git\x20stash\x20save
+SETUVAR _fish_abbr_gstshow:git\x20stash\x20show\x20\x2d\x2dtext
+SETUVAR _fish_abbr_gsu:git\x20submodule\x20update
+SETUVAR _fish_abbr_gsw:git\x20switch
+SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
+SETUVAR _fish_abbr_gswd:git\x20switch\x20\x28git_develop_branch\x29
+SETUVAR _fish_abbr_gswm:git\x20switch\x20\x28git_main_branch\x29
+SETUVAR _fish_abbr_gt:git\x20tag
+SETUVAR _fish_abbr_gta:git\x20tag\x20\x2da
+SETUVAR _fish_abbr_gtas:git\x20tag\x20\x2da\x20\x2ds
+SETUVAR _fish_abbr_gts:git\x20tag\x20\x2ds
+SETUVAR _fish_abbr_gwch:git\x20whatchanged\x20\x2dp\x20\x2d\x2dabbrev\x2dcommit\x20\x2d\x2dpretty\x3dmedium
+SETUVAR _fish_abbr_gwt:git\x20worktree
+SETUVAR _fish_abbr_gwta:git\x20worktree\x20add
+SETUVAR _fish_abbr_gwtls:git\x20worktree\x20list
+SETUVAR _fish_abbr_gwtmv:git\x20worktree\x20move
+SETUVAR _fish_abbr_gwtrm:git\x20worktree\x20remove
+SETUVAR _fish_abbr_k:kubectl
+SETUVAR _fish_abbr_vsplt:code\x20\x24WS/platform\x2dk8s
+SETUVAR _fish_abbr_vstbx:code\x20\x24WS/toolbox
+SETUVAR _fisher_decors_2F_fish_2D_colored_2D_man_files:\x7e/\x2econfig/fish/functions/man\x2efish
+SETUVAR _fisher_gazorby_2F_fifc_files:\x7e/\x2econfig/fish/functions/_fifc\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_action\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_completion_group\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_expand_tilde\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_cmd\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_dir\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_fn\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_opt\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_open_process\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_parse_complist\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_parse_pid\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_path_to_complete\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_cmd\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_dir\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_file_default\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_fn\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_opt\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_preview_process\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_source_directories\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_source_files\x2efish\x1e\x7e/\x2econfig/fish/functions/_fifc_test_version\x2efish\x1e\x7e/\x2econfig/fish/functions/fifc\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fifc\x2efish\x1e\x7e/\x2econfig/fish/completions/fifc\x2efish
+SETUVAR _fisher_gazorby_2F_fish_2D_exa_files:\x7e/\x2econfig/fish/functions/exa_git\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2dexa\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_lewisacidic_2F_fish_2D_git_2D_abbr_files:\x7e/\x2econfig/fish/functions/git_current_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/git_develop_branch\x2efish\x1e\x7e/\x2econfig/fish/functions/git_feature_branch_prepend\x2efish\x1e\x7e/\x2econfig/fish/functions/git_main_branch\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/git_abbr\x2efish
+SETUVAR _fisher_nickeb96_2F_puffer_2D_fish_files:\x7e/\x2econfig/fish/functions/_puffer_fish_expand_bang\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_dots\x2efish\x1e\x7e/\x2econfig/fish/functions/_puffer_fish_expand_lastarg\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/puffer_fish_key_bindings\x2efish
+SETUVAR _fisher_patrickf1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_diff_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1enickeb96/puffer\x2dfish\x1edecors/fish\x2dcolored\x2dman\x1egazorby/fish\x2dexa\x1elewisacidic/fish\x2dgit\x2dabbr\x1ewawa19933/fish\x2dsystemd\x1ejorgebucaran/nvm\x2efish\x1egazorby/fifc\x1epatrickf1/fzf\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _fisher_wawa19933_2F_fish_2D_systemd_files:\x7e/\x2econfig/fish/functions/systemctl\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/systemd\x2dabbr\x2efish
+SETUVAR --export bin_path:\x2elocal/bin
+SETUVAR --export fifc_editor:nano
+SETUVAR fifc_open_keybinding:ctrl\x2do
+SETUVAR fish_color_autosuggestion:555\x1ebrblack
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:005fd7
+SETUVAR fish_color_comment:990000
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:009900
+SETUVAR fish_color_error:ff0000
+SETUVAR fish_color_escape:00a6b2
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:00a6b2
+SETUVAR fish_color_param:00afff
+SETUVAR fish_color_quote:999900
+SETUVAR fish_color_redirection:00afff
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:\x1d
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/felix/go/bin\x1e/home/felix/\x2elocal/share/coursier/bin\x1e/usr/local/go/bin
+SETUVAR nvm_default_version:lts/hydrogen
+SETUVAR zoxide_cmd:z

@@ -1,0 +1,8 @@
+
+[window]
+dimensions = { columns = 100, lines = 30 }
+opacity = 0.95
+
+[font]
+normal = { family = "0xProto Nerd Font Mono", style = "Regular" }
+size = 10.0
