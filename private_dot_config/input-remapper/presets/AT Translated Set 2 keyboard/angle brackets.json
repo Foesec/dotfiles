@@ -1,0 +1,28 @@
+{
+    "mapping": {
+        "1,100,1": [
+            "ISO_Level3_Shift",
+            "keyboard"
+        ],
+        "1,100,1+1,51,1": [
+            "key(ISO_Level3_Shift).hold(less)",
+            "keyboard"
+        ],
+        "1,54,1+1,41,1": [
+            "modify(Shift_R, hold(greater))",
+            "keyboard"
+        ],
+        "1,41,1": [
+            "hold(less)",
+            "keyboard"
+        ],
+        "1,100,1+1,52,1": [
+            "key(ISO_Level3_Shift).modify(Shift_R, hold(less))",
+            "keyboard"
+        ],
+        "1,100,1+1,44,1": [
+            "hold(less)",
+            "keyboard"
+        ]
+    }
+}
